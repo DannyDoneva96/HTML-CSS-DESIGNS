@@ -1,0 +1,49 @@
+article {
+    background-color: white;
+    border-radius : 10px;
+    max-width :400px
+}
+img{
+    display: block;
+    
+  width: 50%;
+  object-fit: cover;
+float: left;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%)
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+}
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    width: 40%;
+    text-align: center
+}
+
+.btn-div {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: 12px;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.container{
+    margin: 20px;
+}
+span{
+    text-decoration-line: line-through;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(148, 145, 145);
+    text-decoration-color: rgb(148, 145, 145) ;
+}
+.content {
+    font-size: 14px
+}
