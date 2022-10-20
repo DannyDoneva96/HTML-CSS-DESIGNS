@@ -5,56 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
-  <article>
-    
-    <img src="./images/image-product-desktop.jpg" />
-
-    <section class="container">
-      <p>Preview</p>
-
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-
-      <p class="content">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+  <main class="main">
+    <div class="image-wrapper"></div>
+    <div class="content-wrapper">
+      <p class="label">perfume</p>
+      <h2 class="header">Gabrielle Essence Eau De Parfum</h2>
+      <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.</p>
-
-      <div>
-        <p class="price">$149.99<span>$169.99</span></p>
+      <div class="prices">
+        <h3 class="price">$149.99</h3>
+        <h3 class="price-sale">$169.99</h3>
       </div>
-
-
-      <button class="btn">
-        <div class="btn-div"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</div>
-      </button>
-  </article>
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/DannyDoneva96/">Daniela Doneva</a>.
-    </section>
-  </footer>
+      <button class="add-button"><img src="./images/icon-cart.svg" alt=""> Add to Cart</button>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/DannyDoneva96">Daniela Doneva</a>.
   </div>
-
 </body>
 
 </html>
