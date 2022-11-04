@@ -1,0 +1,173 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --clr-primary: #D01919;
+  --clr-grey: #EFEFEF;
+
+
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Serif', serif;  */
+}
+.logo{
+  background-color: var(--clr-primary)
+  ;
+  color: #EFEFEF;
+  padding: 1rem 2rem;
+}
+.header{
+  background-image: url("./task3/image/fitness-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+width: 100%;
+  height: 70vh;
+}
+
+
+.nav-container{
+ 
+position:sticky;
+color: white;
+top: 0px;
+  right: 0px;
+  z-index: 100
+}
+
+.header .logo {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.header .nav {
+  padding:1rem;
+  display: flex;
+  gap: 3rem;
+  justify-content:flex-end ;
+
+}
+.header .nav .nav-item {
+  display: flex;
+  flex-direction: row;
+
+}
+.header .nav .nav-item .nav-link {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.1px;
+  line-height: 1;
+}
+
+ .main-h{
+  color:white;
+align-items: center;
+font-size:80px;
+letter-spacing:10px;
+font-weight: 500;
+text-align: center;
+padding-top:100px
+}
+
+.content .text{
+  padding-top:1rem;
+  color: white;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  font-size: 21px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-getstarted{
+display:block;
+  background-color: var(--clr-primary);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding:0.5rem 2rem;
+  align-items:center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  
+  border-radius: 10px;
+
+}
+
+/* section 2 */
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 400px;
+  margin-bottom: 1rem;
+
+}
+
+.section-grid .section-grid-item {
+  text-align: center;
+  margin: 2rem;
+}
+
+
+
+
+#features .section-grid-item  i {
+  font-size: 48px;
+}
+
+#features .section-grid-item .title {
+  color: var(--clr-primary);
+  font-size: 22px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.divider {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  width :52px;
+  height: 1px;
+
+  background-color: var(--clr-primary);
+  margin-bottom: 1rem;
+}
+.section-heading{
+  text-align: center;
+  margin: 2rem;
+  font: size 44px;
+
+}
+.desc{
+  font-size: 20px;
+
+}
+
+.features.coaches  {
+
+  background-color: var(--clr-grey);
+}
+ 
+
+.desc.coach{
+  
+    font-size: 14px;
+
+}
+.title-coach{
+  color: var(--clr-primary)
+}
+
+
+.footer{
+  font-weight: bold;
+  background-color: var(--clr-primary);
+  text-align: center;
+  padding:0.5rem
+}
