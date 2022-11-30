@@ -1,0 +1,27 @@
+body{
+    background-image: url(./images/background.png)
+}
+
+.container img{
+    /* border-radius: 20px; */
+align-items: center;
+  z-index: -1;
+    width: 100%;
+}
+.container{  
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+    overflow: hidden;
+    box-shadow: 10px 20px 29px 9px rgba(48,48,48,0.85);
+    -webkit-box-shadow: 10px 20px 29px 9px rgba(75, 73, 73, 0.85);
+    -moz-box-shadow: 10px 20px 29px 9px rgba(62, 62, 62, 0.85);
+    border-radius: 20px;
+width:45%
+}
+.content{
+    position:absolute;
+    top: 0;
+}
