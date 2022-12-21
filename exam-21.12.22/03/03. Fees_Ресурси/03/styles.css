@@ -79,7 +79,7 @@ p{font-family: 'lato';}
 
 .header{
     background-color:#54546d;
-     height: 40vh; 
+    /* height: 40vh; */
     position: relative;
 }
 
@@ -98,7 +98,7 @@ header img{
  .articles{
     background-color: white;
     width: 25%;
-    height: 35vh; 
+    height: 40vh; 
 
     margin: 1rem; 
  position: relative;
@@ -109,8 +109,6 @@ header img{
     display: flex;
     justify-content: center;
     gap: 2rem;
-    position: absolute;
-    bottom: -50%;
 
 }
 .art-h4-green{
@@ -176,7 +174,7 @@ box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
 }
 .section{
     width: 100%;
-    margin-top: 14rem;
+    margin-top: 2rem;
   
 }
 .art-footer-2,.art-footer-3{
@@ -194,7 +192,7 @@ box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
 }
 .footer-p-price,.footer-p{
     text-align: center;
-    font-size: 17px;
+    font-size: 12px;
     color:white;
 }
 .art-div{
@@ -202,7 +200,7 @@ box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
     flex-direction: column
 }
 .footer-p-price{
-font-size: 24px;
+font-size: 22px;
 text-align: center;
 }
 .main-h4{

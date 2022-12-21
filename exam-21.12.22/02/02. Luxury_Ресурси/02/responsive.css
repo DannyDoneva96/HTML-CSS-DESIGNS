@@ -1,0 +1,92 @@
+@media only screen and (max-width:600px) {
+
+    header {
+        background-position: center;
+        background-size: auto;
+    }
+
+    .div-header {
+
+        display: none;
+    }
+
+    .options {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding-top: 35px;
+        align-items: center;
+
+
+    }
+
+    .options article {
+
+        width: 100%;
+    }
+
+    .gallery {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 85px;
+    }
+
+    .gallery article a {
+
+        display: none
+    }
+
+    .blog article img,
+    a{
+   
+    display: none;}
+
+.blog-title h4 span {
+    display: none
+}
+#about-blog {
+    background: white;
+    width: 90%;
+    height: 35%;
+    margin-top: 45px;
+}
+.blog-title h4 {
+    font-size: 34px;
+}
+#about-blog h3{
+    font-size: 24px;
+
+}
+.magazine-title h4 {
+    font-size: 25px;
+    align-self: end;
+}
+.magazine-title a{display: none}
+.magazine article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.magazine-info {
+     margin-left: unset;
+}
+.magazine-info img {
+    width: 90%;
+}
+.magazine-info p {
+    margin: 3rem;
+
+}
+footer{
+    flex-direction: column;
+
+}
+.icons{    display: flex;
+    flex-direction: column;
+}
+
+}
