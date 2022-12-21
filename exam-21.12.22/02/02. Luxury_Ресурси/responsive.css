@@ -1,0 +1,17 @@
+
+
+@media screen and (max-width: 600px) {
+    
+    header{
+        background-position: center;
+        background-size: auto;
+    }
+ 
+    .div-header {
+       
+        display: none;
+    }
+    .gallery{
+
+    }
+}

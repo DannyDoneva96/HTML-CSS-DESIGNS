@@ -1,0 +1,103 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+	width: 100%;
+	border-radius: 20px;
+}
+.articles{
+	border-radius: 20px;
+   
+   
+	width: 30%;
+	height: 70vh;
+	background-color: 	#819daf;
+}
+.art-con{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+button{
+	background-color: 
+	#327dc4;
+	color: white;
+	border: 1px solid white;
+	border-radius:32px;
+    padding: 1rem 2rem;
+	font-size: 1rem;
+	margin: 1.5rem
+}
+h1{
+	text-align: center;
+	margin-top:1rem;
+	font-size: 3rem;
+	font-weight: 600;
+}
+h2{
+	text-align: center;
+	margin: 1rem 0 2rem 0;
+
+}
+
+span{color: #327dc4;
+    
+}
+h3{
+	margin: 1rem 1rem;
+	font-size:2rem;
+	font-weight: 600;
+
+}
+p{
+	margin: 1rem 1rem;
+	font-size: 1.5rem;
+
+}
