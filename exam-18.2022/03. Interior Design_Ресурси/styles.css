@@ -1,0 +1,234 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+
+section{
+    width: 75%;
+}
+ .main{
+    background-image: url("./image/image.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+ }
+ .m-c{ padding-top: 2rem;
+    width:100%;
+ }
+ .transp-cont{ 
+      
+margin-left: 2rem;
+    width: 18rem;
+    border: 1px solid black;
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+ }
+ .main-h{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 1rem 1rem;
+ }
+ .main-span{
+    color: #fff;
+    display: block;
+    width: 70%;
+    border-bottom: 0.3rem solid white;
+    margin: 1rem 1rem; }
+ .comp-name{
+    margin: 1rem 1rem;
+    font-size: 1.2rem;
+ }
+ .parrent{
+   width: 100%; 
+}
+ .beige-cont{
+    position: absolute;
+    right: 2rem;
+    display: block;
+    width: 25%;  
+      margin-right: 0;
+      font-size: 27px;
+      height: 40vh;
+margin-right: auto;
+    color: #fff;
+    text-align: right;
+
+    border: 1px solid rgba(0, 0, 0, 0.269);
+    box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.475);
+-webkit-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.548);
+-moz-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.461);
+background: linear-gradient(90deg, rgba(162,153,146,1) 46%, rgba(193,188,185,1) 71%, rgba(204,201,199,1) 97%, rgba(204,201,199,1) 100%);}
+.beige-cont p{
+    margin-right: 22px;
+}
+.beige-k{
+    margin-top: 22px;
+    margin-right: 22px;
+
+    color: #fff;
+    font-size: 30px;
+}
+.side-bar{
+    background-color: #bab1ad;
+    height: 100vh;
+    z-index: 1;
+}
+section{
+    padding-right: 7rem;
+
+    padding-left: 3rem;
+
+    position: relative;
+    height: 100vh;
+    background-color: #f2f0f3;
+}
+button{
+    background-color: #67784d;
+}
+input{ 
+    background-color: #bab1ad;
+
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.contact-line{
+    display: block;
+    width:100%;
+    border-top: 1px solid black;
+}
+.contacts ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 38px;
+}
+.contacts ul{
+    margin-left: -40px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+input,button{
+    padding: 0.7rem 0.7rem;
+
+    font-size: 1.5rem;
+    color: #fff;
+    border:1px solid grey;
+    border-radius: 10px ;
+}
+input::placeholder{
+    color: #fff;
+    padding: 0.7rem 0.7rem;
+
+}
+.services{
+    
+    font-size: 30px;
+    padding: 1rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+.i-co{
+    margin-right: 0.5rem;
+    display: inline-block;
+    background-color: #bab1ad;
+   width: 28px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.paragraph{
+}
+.span-paragraph{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pp{display: inline;
+    font-size: 26px;}
+
+    .side-bar li{
+        line-height: 1;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-bottom: 6rem;
+    }
+    .sb-span{
+        display: block;
+        color: #fff;
+        font-size: 5rem;
+
+    }
+    .contact{
+        padding-top: 0.5rem;
+        text-transform:uppercase;
+        font-size: 2rem;
+    }
+    form{
+        margin: 2rem 0;
+    }
